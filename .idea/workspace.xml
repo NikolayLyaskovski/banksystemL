@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71e1021b-0af5-4330-8c64-9d8f5c4e58bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bank.system/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank.system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank.system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank.system/src/main/resources/application.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="71e1021b-0af5-4330-8c64-9d8f5c4e58bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch1_bank.system" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -45,7 +45,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591806133640</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit for the project">
+      <created>1591811176964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591811176965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -57,10 +64,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" width="638" height="411" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591803484273" />
-    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1591806132870">
+    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1591811176323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591806132870" />
+    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811176323" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591804474938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -69,9 +76,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591804862998" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591806170920">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591811262193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591806170920" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811262193" />
   </component>
 </project>

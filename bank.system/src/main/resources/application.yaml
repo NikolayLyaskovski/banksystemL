@@ -5,6 +5,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/bank_system
     username: postgres
     password: admin
+    hikari:
+      maximumPoolSize: 15
   jpa:
     show_sql: true
     format_sql: true
