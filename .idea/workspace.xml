@@ -52,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591811176965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit for the project">
+      <created>1591811444243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591811444243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -64,21 +71,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" width="638" height="411" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1591803484273" />
-    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1591811176323">
+    <state x="196" y="102" width="1246" height="863" key="CommitChangelistDialog2" timestamp="1591811443719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811176323" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591804474938">
+    <state x="196" y="102" width="1246" height="863" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811443719" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591812240347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591804474938" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591812240347" />
     <state x="727" y="222" key="RollbackChangesDialog" timestamp="1591804862998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="727" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591804862998" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591811262193">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591811464599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811262193" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591811464599" />
   </component>
 </project>
