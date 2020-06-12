@@ -1,9 +1,9 @@
 package com.advance.bank.bank.system.model;
 
 public class City {
-    Long id;
-    String name;
-    String postalCode;
+    private Long id;
+    private String name;
+    private String postalCode;
 
     public Long getId() {
         return id;
