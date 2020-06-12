@@ -8,6 +8,7 @@ public class Account {
     private User owner;
     private Long balance;
     private AccountType accountType = AccountType.NONE;
+    private Currency currency;
 
     public Long getId() {
         return id;
@@ -43,5 +44,13 @@ public class Account {
 
     public void setAccountType(AccountType accountType) {
         this.accountType = accountType;
+    }
+
+    public Currency getCurrency() {
+        return currency;
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
     }
 }
