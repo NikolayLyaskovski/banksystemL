@@ -9,12 +9,12 @@ public class User {
 
     private Long id;
     private UserType userType;
-    private Set<Object> accounts;
+    private Set<Account> accounts;
     private String firstName;
     private String lastName;
     private String egn;
     private String mobileNumber;
-    private List<Object> addresses;
+    private Set<Object> addresses;
     private String email;
     private String password;
 
