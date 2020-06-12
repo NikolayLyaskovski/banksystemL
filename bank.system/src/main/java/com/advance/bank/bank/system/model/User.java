@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 public class User {
+
     private Long id;
     private UserType userType;
     private Set<Object> accounts;
