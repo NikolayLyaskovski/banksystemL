@@ -15,7 +15,7 @@ public class CityController {
 
     }
 
-    @PostMapping
+    @PutMapping
     public void updateCity(@RequestBody City city){
 
     }
