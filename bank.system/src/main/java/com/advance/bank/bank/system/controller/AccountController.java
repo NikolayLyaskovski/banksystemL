@@ -12,27 +12,27 @@ import java.util.List;
 public class AccountController {
 
     @PostMapping
-    void createAccount(@RequestBody Account account){
+    public void createAccount(@RequestBody Account account){
 
     }
 
     @PutMapping
-    void updateAccount(@RequestBody Account account){
+    public void updateAccount(@RequestBody Account account){
 
     }
 
     @GetMapping
-    List<Account> getAccounts(){
+    public List<Account> getAccounts(){
         return null;
     }
 
     @GetMapping("/{accountId}")
-    Account getAccount(@PathVariable("accountId") Long accountId){
+    public Account getAccount(@PathVariable("accountId") Long accountId){
         return null;
     }
 
     @DeleteMapping
-    void deleteAccount(){
+    public void deleteAccount(){
 
     }
 }
