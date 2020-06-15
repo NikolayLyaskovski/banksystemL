@@ -1,15 +1,19 @@
 package com.advance.bank.bank.system.service;
 
 import com.advance.bank.bank.system.model.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public interface UserService {
-   void createUser(User user);      //metodite v interfeisa sa abstractni i nqmat tqlo
-   void updateUser(User user);
+    void createUser(User user);      //metodite v interfeisa sa abstractni i nqmat tqlo
 
-   User getUserById(Long id);
-   List<User> getAllUser();
+    void updateUser(User user);
 
-   void deleteUserById (Long id);
+    User getUserById(Long id);
+
+    List<User> getAllUser();
+
+    void deleteUserById(Long id);
 }
