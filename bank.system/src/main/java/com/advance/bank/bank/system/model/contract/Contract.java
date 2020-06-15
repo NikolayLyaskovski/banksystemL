@@ -1,6 +1,6 @@
-package com.advance.bank.bank.system.model;
+package com.advance.bank.bank.system.model.contract;
 
-import com.advance.bank.bank.system.model.enums.ContractType;
+import com.advance.bank.bank.system.model.Account;
 
 import java.time.Instant;
 
