@@ -16,6 +16,8 @@ public class ContractDetails {
     @Column
     private BigDecimal interest;
 
+
+
     @Column
     @Enumerated(EnumType.STRING)
     private ContractType contractType = ContractType.NONE;
