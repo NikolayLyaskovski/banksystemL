@@ -1,6 +1,7 @@
 server:
   port:8080
 spring:
+
   datasource:
     url: jdbc:postgresql://localhost:5432/bank_system
     username: postgres
@@ -11,3 +12,5 @@ spring:
     show_sql: true
     format_sql: true
     database-paltform: org.hybernate.dialect.PostgreSQL94Dialect
+    hibernate:
+      ddl-auto: create-drop

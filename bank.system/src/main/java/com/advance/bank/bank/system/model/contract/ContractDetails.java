@@ -2,16 +2,29 @@ package com.advance.bank.bank.system.model.contract;
 
 import com.advance.bank.bank.system.model.enums.ContractType;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+
+@Entity
+@Table(name = "contract_details")
 public class ContractDetails {
+    @Id
     private Long id;
+    @Column
     private BigDecimal interest;
+
+    @Column
+    @Enumerated(EnumType.STRING)
     private ContractType contractType = ContractType.NONE;
+    @Column
     private Long principal;         // glavnica
+
+    @Column
     private Map<String, Object> additionalInfo = new HashMap<>();
+
 
     public Long getId() {
         return id;

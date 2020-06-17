@@ -1,10 +1,21 @@
 package com.advance.bank.bank.system.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "features")
 public class Feature {
 
+    @Id
     private Long id;
+    @Column
     public String description;
+    @Column
     public String name;
+    @Column
     public Long price;
 
     public Long getId() {

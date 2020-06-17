@@ -1,8 +1,19 @@
 package com.advance.bank.bank.system.model;
 
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "cities")
 public class City {
+    @Id
     private Long id;
+    @Column
     private String name;
+    @Column(name = "post_code")
     private String postalCode;
 
     public Long getId() {
