@@ -1,7 +1,7 @@
-server:
-  port:8080
-spring:
 
+server:
+  port: 8080
+spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/bank_system
     username: postgres
@@ -9,8 +9,8 @@ spring:
     hikari:
       maximumPoolSize: 15
   jpa:
+    hibernate:
+      ddl-auto: create
     show_sql: true
     format_sql: true
-    database-paltform: org.hybernate.dialect.PostgreSQL94Dialect
-    hibernate:
-      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
