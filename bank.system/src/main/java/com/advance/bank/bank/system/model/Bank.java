@@ -6,10 +6,11 @@ import javax.persistence.*;
 @Table (name = "banks")
 public class Bank {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)     //za da se incrementira bez povtorenie
     private Long id;
     @Column
     private String name;
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "address_id")
     private Address address;
     @Column(name = "swift_number")
